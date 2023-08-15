@@ -2843,15 +2843,6 @@ display: inline-block;
 	line-height: 0px;    
 }
 
-/* animate_banner_area */
-.animate_banner_area.banner_area {
-    height: auto;
-}
-
-
-
-
-
 
 /* === style_w4 woo ==== */
 
@@ -16633,6 +16624,7 @@ background:#14133b;
     background-position: center center;
     background-size: cover;
 	position:relative;
+    top:0;
 }
 .banner_area::before{
   position: absolute;
