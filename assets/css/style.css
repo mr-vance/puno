@@ -16620,10 +16620,9 @@ background:#14133b;
 }
 
 .banner_area {
-	background-image: url(../images/slidera-5.jpg);
-    background-position: center center;
-    background-size:contain;
-	position:relative;
+	background-image: url();
+    background-position: center;
+    background-size:cover;
     top:0;
 }
 .banner_area::before{
