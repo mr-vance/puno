@@ -416,7 +416,7 @@ h6 a {
 }
 */
 h1{}
-h2{}
+h2{font-size: medium;}
 h3{}
 h4{}
 h5{}
@@ -2805,7 +2805,7 @@ display: inline-block;
 /*====== style 5 ======*/
 .banner-content form{
     position: relative;
-    width: 445px;   
+    width: 100%;   
 }
 .banner-content input{
     background-color: transparent;
