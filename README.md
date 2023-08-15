@@ -4,15 +4,8 @@
   </a>
 </div> <br><br>
 
+![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
 
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
-![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)
-![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)
-![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg) <br>
-![forthebadge](https://img.shields.io/github/repo-size/Puno-Pty-Ltd/Website2022-Complete?style=for-the-badge)
-![forthebadge](https://img.shields.io/github/directory-file-count/Puno-Pty-Ltd/Website2022-Complete?style=for-the-badge)
-![forthebadge](https://img.shields.io/github/commit-activity/w/Puno-Pty-Ltd/Website2022-Complete?style=for-the-badge)
-![forthebadge](https://img.shields.io/github/last-commit/Puno-Pty-Ltd/Website2022-Complete?style=for-the-badge)
 
 # Puno.Africa 
 
