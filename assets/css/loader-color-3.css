@@ -1,6 +1,6 @@
 
 .loader {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -345,7 +345,7 @@
 @media (max-width: 768px) {
   .loader {
     z-index: 2000000; /* Ensure high z-index */
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
