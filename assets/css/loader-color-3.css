@@ -1,33 +1,11 @@
-/*! ------------------------------------------------
- * Project Name: puno Coming Soon Template
- * Project Description: puno - awesome coming soon template to kick-start your project
- * Tags: mix_design, puno, coming soon, under construction, template, coming soon page, html5, css3
- * Version: 3.0.0
- * Build Date: April 2017
- * Last Update: September 2021
- * This product is available exclusively on Themeforest
- * Author: mix_design
- * Author URI: http://mixdesign.club
- * File name: loader-color-3.css
- * ------------------------------------------------
- *
- * ------------------------------------------------
- * Table of Contents
- * ------------------------------------------------
- *  1. Loader Styles
- * ------------------------------------------------
- * Table of Contents End
- * ------------------------------------------------ */
-/* ------------------------------------------------*/
-/* Loader Styles Start */
-/* ------------------------------------------------*/
+
 .loader {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 9999;
   background-color: #140E32;
   opacity: 1;
   visibility: visible;
@@ -36,6 +14,7 @@
   -moz-transition: visibility 0.4s 0s, opacity 0.4s, background-color 0.6s ease-in-out;
   transition: visibility 0.4s 0s, opacity 0.4s, background-color 0.6s ease-in-out;
 }
+
 .loader.fade-dark {
   background-color: #100b28;
 }
@@ -360,6 +339,19 @@
   -webkit-animation-fill-mode: both;
      -moz-animation-fill-mode: both;
           animation-fill-mode: both;
+}
+
+/* Adjusted loader styles for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .loader {
+    z-index: 2000000; /* Ensure high z-index */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* ... other styles ... */
+  }
 }
 
 /* ------------------------------------------------*/
