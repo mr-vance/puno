@@ -1,13 +1,3 @@
-RewriteEngine On
-RewriteBase /
-
-# Exclude existing files and directories from rewrite
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-
-# Rewrite all other requests to router.php
-RewriteRule ^(.*)$ router.php [L]
-
 # Prevent directory listing
 Options -Indexes
 
