@@ -5667,6 +5667,12 @@ margin-bottom: 30px;
     -webkit-transition: .5s;
     transition: .5s;
 }
+
+.social-icon {
+    color: white; /* Set the icon color to white */
+    margin-right: 15px; /* Add space between the icons */
+}
+
 .team-part:hover .team-social {
     bottom: 0px;
 }
