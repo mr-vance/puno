@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://puno.africa/">
-    <img src="assets/images/puno-logo-2022.png" alt="Logo" width="137" height="100">
+    <img src="assets/images/puno-loader.png" alt="Logo" width="30" height="30">
   </a>
 </div> <br><br>
 
