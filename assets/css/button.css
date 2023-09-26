@@ -7,9 +7,9 @@
   font-size: 14px;
   line-height: 1.1;
   padding: 16px 25px;
-  font-weight: 600;
+  font-weight: 200;
   font-family: "Open Sans", sans-serif;
-  text-transform: uppercase;
+  text-transform: none;
 }
 @media screen and (max-width: 575px) {
   .button-round-primary,
@@ -71,7 +71,7 @@ input[type=submit]:focus {
 }
 
 .button-round-secondary {
-  background-color: #0E3500;
+  background-color: #177dc2;
   color: #ffffff;
 }
 

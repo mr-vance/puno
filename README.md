@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://puno.africa/">
-    <img src="assets/images/puno-loader.png" alt="Logo" width="30" height="80">
+    <img src="assets/images/puno-loader.png" alt="Logo" width="30" height="70">
   </a>
 </div> <br><br>
 
@@ -10,6 +10,7 @@
 # Puno.Africa 
 
 ## Third-party integrations
+Original Theme: Hisfull
 
 | Source        | Description                                  | URL                     |
 | ------------------ | -------------------------------------------- | -------------------------- |
