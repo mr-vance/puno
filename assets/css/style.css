@@ -1,5 +1,6 @@
 
 /* === style_w10 theme default ==== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -60,7 +61,7 @@ hr {
  */
 
 pre {
-  font-family: Montserrat; /* 1 */
+  font-family: 'Poppins'; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -103,7 +104,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: Montserrat; /* 1 */
+  font-family: 'Poppins'; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -115,7 +116,7 @@ samp {
 	height:60px;
 	bottom:30px;
 	right:30px;
-	background-color:#25d366;
+	background-color:#008d00;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -181,7 +182,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: Montserrat; /* 1 */
+  font-family: 'Poppins'; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -367,28 +368,11 @@ template {
   display: none;
 }
 
-/*
-@font-face {
-    font-family: 'Sofia Pro';
-    src:  url('../fonts/Sofia Pro Bold.ttf');
-    font-weight: 700;
-    font-style: normal;
-    font-display: block;
-}
-
-@font-face {
-    font-family: 'Sofia Pro';
-    src:  url('../fonts/Sofia Pro Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-    font-display: block;
-}
-*/
 
 body {	
     color: #868686;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 17px;
     line-height: 1.6;
@@ -396,6 +380,11 @@ body {
 p {
 	font-style: normal;
 }
+
+h3{
+    font-weight: 200;
+}
+
 h1,
 h2,
 h3,
@@ -408,11 +397,10 @@ h3 a,
 h4 a,
 h5 a,
 h6 a{
-	font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+	font-family: 'Poppins', sans-serif;
 	margin-bottom: 0;
     line-height: 1.2;	
-    font-weight: 500;
+    font-weight: 300;
     transition: .5s;
 	font-size:22px;
     color: #14133b;
@@ -425,8 +413,8 @@ h6 a{
 @media (max-width: 768px) {
     body {	
         color: #868686;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
         font-style: normal;
         font-size: 15px;
         line-height: 1.6;
@@ -446,11 +434,11 @@ h6 a{
     h4 a,
     h5 a,
     h6 a{
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-style: normal;
         margin-bottom: 0;
         line-height: 1.2;	
-        font-weight: 500;
+        font-weight: 300;
         transition: .5s;
         font-size:18px;
         color: #14133b;
@@ -460,19 +448,7 @@ h6 a{
     }
 }
 
-/*
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-     color: #151616;
-    -webkit-transition: .5s;
-    transition: .5s;
-	font-size:23px;
-	font-weight: 700;
-}
+
 */
 h1{}
 h2{font-size: medium;}
@@ -578,12 +554,12 @@ label {
     
     cursor: pointer;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 a,i, cite, em, var, address, dfn,ol,li,ul{
 	font-style:normal;
-	font-weight:400;
+	font-weight:300;
 }
 
 
@@ -1027,7 +1003,7 @@ background: #008d00 none repeat scroll 0 0;
     margin: 0 8px 10px 0;
     padding: 7px 15px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 300;
     border: 1px solid #ddd;
     text-transform: capitalize;
 }
@@ -1180,7 +1156,7 @@ blockquote {
     margin: 0 0 30px;
     font-size: 17px;
     border-left: 3px solid #008d00;
-    font-weight: 400;
+    font-weight: 300;
     box-shadow: 0 0 65px 0px rgba(0, 0, 0, 0.1);
 }
 blockquote p{
@@ -1211,7 +1187,7 @@ blockquote small {
 }
 blockquote code{
 color: #555;
-   font-weight: 400;
+   font-weight: 300;
 }	
 blockquote em,
 blockquote i {
@@ -3278,7 +3254,7 @@ color: #ffc107;
     color: #ffffff;
     transition: all .2s;
 border:none;
-font-weight: 400;
+font-weight: 300;
 	
 }
 .woocommerce .quantity .qty {
@@ -3675,7 +3651,7 @@ h2.woocommerce-order-details__title
     -webkit-appearance: none;
     border-radius: 2px;
     box-sizing: border-box;
-    font-weight: 400;
+    font-weight: 300;
    border:solid 2px #e4e4e4;
 }
 .woocommerce span.woocommerce-input-wrapper {
@@ -3849,7 +3825,7 @@ max-width: unset;
 }
 .content-widget ul.product_list_widget li span {
   /*   display: inline-block; */
-    font-weight: 400;
+    font-weight: 300;
 }
 .witr_breadcumb_shop li a {
     color: #fff;
@@ -6999,7 +6975,7 @@ margin:0px;
 .pricing-part sub {
     color: #fff;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     position: absolute;
     right: -65px;
     top: 20px;
@@ -7147,7 +7123,7 @@ display: table-cell;
 
 .test-part span  {
     
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
 }
 .testomonial .test-part.witr_testi_s_11 img {
@@ -7787,7 +7763,7 @@ font-size: 20px;
 .witr_blog_con6 h5 a{
 	margin-top:20px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     color: #fff;
 	display:inline-block;
 }
@@ -8040,7 +8016,7 @@ padding: 20px 20px 20px 20px;
 .witr_counter_number_inn h4 {
     color: #868686;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /*====== style 2 ======*/
@@ -8578,7 +8554,7 @@ mettle PORTFOLIO AREA CSS
     font-weight: 600;	
 }
 .portfolio-details-box ul li span.eright{
-	font-weight: 400;
+	font-weight: 300;
     font-size: 16px;
 	margin-left: 5px;	
 }
@@ -8829,7 +8805,7 @@ span.smalltext {
 .wittr_footermenu_w_list ul li{
     font-size: 16px;
     line-height:38px;
-    font-weight: 400;
+    font-weight: 300;
     color: #555;
     transition: .5s;	
 } 
@@ -8951,7 +8927,7 @@ color:#008d00;
     background: -webkit-linear-gradient(left, rgba(119, 1, 219, 1) 0%, rgba(25, 153, 242, 1) 100%) ;
     background: linear-gradient(90deg, rgba(119, 1, 219, 1) 0%, rgba(25, 153, 242, 1) 100%) ;
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
     padding: 0 28px;
     font-size: 18px;
     line-height: 48px;
@@ -8998,7 +8974,7 @@ color:#008d00;
 .blog-title h5 span{
     color: #555;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .blog-title p {
 	padding-right: 30px;
@@ -10069,7 +10045,7 @@ div.wpcf7-response-output {
     color: #a2a2a9;
     padding-left: 0px;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
 	border-radius: 0px;
 /*     box-shadow: 0px 0px 30px 0px rgba(148,146,245,0.2);	 */
     text-transform: capitalize; 
@@ -11234,7 +11210,7 @@ background: #000000e8;
     letter-spacing: normal;
     font-size: 16px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: capitalize;
     transition:.5s;
     visibility: inherit !important;
@@ -11561,7 +11537,7 @@ puno BLOG AREA CSS
     color: #444;
     display: inline-block;
     font-size: 11px;
-    font-weight: 400;
+    font-weight: 300;
     padding: 6px 10px;
     text-transform: uppercase;
     transition: all 0.5s ease 0s;
@@ -11690,7 +11666,7 @@ word-break: break-all;
 }
 .post_reply div.st {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .post_reply div.st a {
     
@@ -11707,7 +11683,7 @@ word-break: break-all;
     float: right;
     color: #5986f2;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .post_reply p {} .comments-area .children {
     margin-left: 30px;
@@ -12100,7 +12076,7 @@ puno FOOTER TOP AREA CSS
 .top_address_content span {
     color: #ffffff;
     display: inline-block;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 12px;
     margin-right: 14px;
 }
@@ -12398,14 +12374,14 @@ END FOOTER BOTTOM AREA CSS
 }
 .footer-middle .recent-post-text h4 a {
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 15px;
     margin-bottom: -10px;
     display: inline-block;
 }
 .footer-middle .recent-post-text > h4 {
     margin-bottom: 0px;
-    font-weight: 400;
+    font-weight: 300;
 	    line-height: 1;
 }
 .footer-middle .recent-post-text > h4 a:hover {
@@ -12414,7 +12390,7 @@ END FOOTER BOTTOM AREA CSS
 .footer-middle .recent-post-text .rcomment {
     color: #fff;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .mean-container .mean-bar {
     float: none;
@@ -13115,7 +13091,7 @@ puno FUN FACT AREA CSS
 .countr_text > h1 {
 	  
     display: inline-block;
-    font-family: Montserrat;
+    font-family: 'Poppins';
     font-size: 45px;
     font-weight: 600;
     -webkit-transition: .3s;    margin: 0;
@@ -13343,7 +13319,7 @@ color:#fff;
 
 .subscribe_area .kc_text_block p {
     color: #666;
-    font-family: montserrat;
+    font-family: 'Poppins';
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -13645,7 +13621,7 @@ color:#fff;
 /* recent-review */
 .recent-review-content h3, .recent-review-content h3 a {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     clear: both;
 }
 span.em_footercrating {
@@ -13832,7 +13808,7 @@ margin-right:3px;
 .puno-blog-meta-left_adn span {
     color: #454545;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
     margin-right: 5px;
     text-transform: uppercase;
 }
@@ -13878,7 +13854,7 @@ margin-right:3px;
     color: #444;
     display: inline-block;
     font-size: 11px;
-    font-weight: 400;
+    font-weight: 300;
     padding: 6px 10px;
     text-transform: uppercase;
     transition: all 0.5s ease 0s;
@@ -15961,7 +15937,7 @@ background:#14133b;
 }
 
 .puno_feature_area{
-	padding:100px 0px 100px;
+	padding:50px 0px 50px;
 }
 
 .puno_feature_area .witr_custom_icons i{
@@ -16069,9 +16045,7 @@ background:#14133b;
 	margin-top: 25px;
 }
 
-.puno_solution_area{
-    padding: 80px 210px 70px 390px;
-}
+
 .witr_solution_left{
 	margin: 0px 42px 0px 0px;
 }
@@ -16480,13 +16454,6 @@ background:#14133b;
 .witr_back_content span,
 .witr_back_content p{
 	color:#fff;
-}
-
-.puno_feature_area{
-	padding:100px 0px 70px;
-}
-.puno_feature_area.feature_home1 {
-    padding: 50px 0px 70px;
 }
 
 .feature_sub_inner {

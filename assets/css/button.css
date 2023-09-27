@@ -1,6 +1,8 @@
 /*--------------------------------------------------------------
 >>> button
 ----------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 .button-round-primary,
 .button-round-secondary,
 .button-round-white {
@@ -8,7 +10,7 @@
   line-height: 1.1;
   padding: 16px 25px;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @media screen and (max-width: 575px) {
   .button-round-primary,
