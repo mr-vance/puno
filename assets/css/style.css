@@ -16047,11 +16047,11 @@ background:#14133b;
 
 
 .witr_solution_left{
-	margin: 0px 42px 0px 0px;
+	margin: 0px 10px 0px 0px;
 }
 
 .puno_solution_area .witr_shape_item_inner {
-        left: 50px;
+    left: 10px;
     top: 25px;
 }
 
@@ -16244,20 +16244,41 @@ background:#14133b;
     margin-top: 9px;
     text-align: right;
 }
-.witr_counter2_area{
-	padding:100px 0px 100px;
+
+
+.witr_counter2_area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Set the default flex-direction to row */
+    flex-wrap: wrap; /* Allow items to wrap to the next row on smaller screens */
 }
-.witr_counter2_area .witr_custom_icon i {
+
+.witr_counter_single {
+    flex: 0 0 calc(33.333% - 20px); /* Adjust the width as needed for three items in a row */
+    margin: 10px; /* Add some spacing between items */
+    text-align: center; /* Center the content within each column */
+}
+
+.witr_custom_icon i {
     color: #008D00;
 }
-.witr_counter2_area .witr_counter_number_inn h3, .witr_counter_number_inn span {
+
+.witr_counter_number_inn h3,
+.witr_counter_number_inn span {
     font-size: 50px;
     color: #008E00;
 }
-.witr_counter2_area .witr_counter_number_inn h4 {
+
+.witr_counter_number_inn h4 {
     color: #14133b;
     font-size: 22px;
     font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .witr_counter_single {
+        flex: 0 0 calc(100% - 20px); /* Make each item take up the full width on smaller screens */
+    }
 }
 
 .puno_accordion_area{
@@ -16277,7 +16298,6 @@ background:#14133b;
 
 
 .witr_counter3_area{
-	background-image: url(../images/puno-blog-1.jpg);
     background-position: center center;
     background-size: cover;
 	position:relative;
@@ -16844,7 +16864,7 @@ overflow: hidden;
 	padding:100px 0px 160px;
 }
 .single_next_work_area{
-	padding:100px 0px 100px;
+	padding:50px 0px 50px;
 }
 
 .single_next_work_area2{
